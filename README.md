@@ -1,3 +1,3 @@
 # Sub Strings
-### aprendendo em ruby como organizar substrings
-    - metodos diferentes de subs
+
+#### Métodos de Subs_Strings.rb
