@@ -17,10 +17,10 @@ def substrings(string, dict)
     hash
   end
   
-  dictionary = ["below","down","go","going","horn","how","howdy","it","i","low","own","part","partner","sit"]
-  string = "Howdy partner, sit down! How's it going?"
+  dictionary = ["abaixo","-se","ir","indo","chifre","como","ola","esta","eu","baixo","ter","papel","parceiro","sente"]
+  string = "Olá parceiro, sente-se! Como tá indo?"
   
   puts substrings(string, dictionary)
   
-  # output: {"down"=>1, "go"=>1, "going"=>1, "how"=>2, "howdy"=>1, 
-  # 	"it"=>2, "i"=>3, "own"=>1, "part"=>1, "partner"=>1, "sit"=>1}
+  # output: {"-se"=>1, "ir"=>1, "indo"=>1, "como"=>2, "ola"=>1, 
+  # 	"ta"=>2, "eu"=>3, "ter"=>1, "papel"=>1, "parceiro"=>1, "sente"=>1}
